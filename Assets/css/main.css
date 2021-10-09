@@ -1,12 +1,12 @@
 body{
-    background-color: #23053f;
+    background-color: #1e1e1e;
     margin: 0%;
 }
 
 nav{
     height: 60px;
     width: 100%;
-    background-color: burlywood;
+    background-color: #7C4DFF;
 
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ nav{
 }
 nav a{
     font-size: 18px;
-    color: #23053f;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -39,19 +39,25 @@ nav img{
 #home-hero h1{
     font-size: 50px;
     color: aqua;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+#home-hero p{
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .bloque1{
     height: 550px;
+    padding: 25px;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    column-gap: 50px;
-    padding: 50px;
+    justify-content: space-around;
+    column-gap: 25px;
 }
 
 .bloque1 p{
