@@ -34,7 +34,7 @@ nav img{
 #home-hero{
     width: 100%;
     height: 550px;
-    background-image: url("/Assets/img/SaturnBG.png");
+    background-image: url("https://pankoala.github.io/PortafolioBedu/Assets/img/SaturnBG.png");
 
     display: flex;
     flex-direction: row;
@@ -80,7 +80,7 @@ nav img{
 footer {
     height: 486px;
     width: 100%;
-    background-image: url("/Assets/img/Footer.png");
+    background-image: url("https://pankoala.github.io/PortafolioBedu/Assets/img/Footer.png");
 
     display: flex;
     flex-direction: column;
