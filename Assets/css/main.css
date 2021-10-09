@@ -53,7 +53,7 @@ nav img{
     font-weight: 400;
 }
 
-.bloque1{
+.two-col{
     height: 450px;
     margin: 0 100px 50px 100px;
 
@@ -64,7 +64,7 @@ nav img{
     column-gap: 30px;
 }
 
-.bloque1 p{
+.two-col p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
@@ -73,4 +73,22 @@ nav img{
 .video {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    height: 486px;
+    width: 100%;
+    background-image: url("/Assets/img/Footer.png");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 800;
+    text-align: center;
 }
