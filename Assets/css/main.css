@@ -77,6 +77,48 @@ nav img{
     justify-content: center;
 }
 
+.section-title h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(100deg, #00ffff, #eb2b68);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 80px 0px 130px 0px;
+}
+
+.grid-container{
+    width: 100%;
+    margin: 100px 0px 100px 0px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+
+}
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container img{
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container h3{
+    font-family: 'Montserrat', cursive;;
+    font-size: 30px;
+    color: aliceblue;
+}
+
 footer {
     height: 486px;
     width: 100%;
