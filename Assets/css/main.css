@@ -121,7 +121,7 @@ nav img{
 footer {
     height: 486px;
     width: 100%;
-    background-image: url("../../img/Footer.png");
+    background-image: url("../../Assets/img/Footer.png");
 
     display: flex;
     flex-direction: column;
