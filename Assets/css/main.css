@@ -34,7 +34,7 @@ nav img{
 #home-hero{
     width: 100%;
     height: 550px;
-    background-image: url("/assets/img/SaturnBG.png");
+    background-image: url("../../Assets/img/SaturnBG.png");
 
     display: flex;
     flex-direction: row;
@@ -43,11 +43,12 @@ nav img{
     column-gap: 100px;
 }
 #home-hero h1{
-    font-size: 50px;
+    font-size: 60px;
     color: aqua;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
+
 #home-hero p{
     font-size: 25px;
     color: white;
@@ -67,7 +68,7 @@ nav img{
 }
 
 .two-col p{
-    font-size: 18px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
@@ -80,11 +81,9 @@ nav img{
 .section-title h1{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
-    background: -webkit-linear-gradient(100deg, #00ffff, #eb2b68);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: aquamarine;
     text-align: center;
-    margin: 80px 0px 130px 0px;
+    margin: 80px 0px 125px 0px;
 }
 
 .grid-container{
@@ -122,12 +121,13 @@ nav img{
 footer {
     height: 486px;
     width: 100%;
-    background-image: url("/assets/img/Footer.png");
+    background-image: url("../../Assets/img/Footer.png");
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
 }
 footer h1{
     font-size: 50px;
