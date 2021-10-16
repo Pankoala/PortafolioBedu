@@ -102,16 +102,14 @@ nav img{
 }
 
 .skills-grid-container{
-    width: 100%;
     margin: 100px 0px 100px 0px;
     
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 200px;
+    grid-template-rows: auto;
     justify-content: center;
     align-items: center;
     column-gap: 100px;
-
 }
 .skills-card{
     display: flex;
@@ -150,7 +148,7 @@ hr {
     width: 80%;
   }
 
-#portfolio-title{
+#portfolio-title {
     margin-top: 100px;
     text-align: center;
     font-size: 25px;
@@ -172,7 +170,7 @@ hr {
     column-gap: 100px;
 }
 .portfolio-card{
-    width: 70vh;
+    width: 60vh;
     background-color: #eb2b68;
     border-bottom: #eb2b68;
     border-right: #eb2b68;
@@ -180,7 +178,8 @@ hr {
     border-style: solid;
 }
 .portfolio-card img{
-    width: 70vh;
+    width: 60vh;
+    height: 45vh;
 }
 
 footer {
@@ -201,3 +200,95 @@ footer h1{
     font-weight: 800;
     text-align: center;
 }
+@media (min-width: 200px) and (max-width: 767px) {
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a{
+        font-size: 14px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    nav img{
+        display: none; 
+    }
+
+    #home-hero{
+        height: auto;
+        background-position: left;
+        
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    #home-hero img{
+        width: 20vh;
+    }
+    #home-hero h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #home-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .two-col{
+        height: auto;
+        margin: 0px 30px 0px 30px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .two-col p{
+        font-size: 16px;
+    }
+    
+    .section-title h1{
+        font-size: 45px;
+        margin: 20px 0px 50px 0px;
+    }
+    .skills-grid-container{
+        margin: 0px 0px 50px 0px;
+        
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        column-gap: 10%;
+      }
+
+    .skills-grid-container img{
+        width: 85%;
+       }
+       
+    .portfolio-title{
+        margin-top: 10px;
+    }
+    .portfolio-grid{
+        margin: 5px 0px 80px 0px;
+
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 40px;
+    }
+    .portfolio-card{
+        width: 100%;
+        height: 100%;
+    }
+    .portfolio-card img{
+        width: 100%;
+        height: 100%;
+    }
+
+   }
