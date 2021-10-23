@@ -1,0 +1,25 @@
+body {
+    background-color: $bg-color;
+}
+nav {
+    background-color: $secondary-color;
+    height: $sm;
+    background: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: $xs;
+
+    a {
+        size: $sm;
+        color: $primary-color;
+        text-decoration: none;
+        font-family: sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    img {
+        height: $sm;
+    }   
+}

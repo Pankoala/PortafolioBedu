@@ -1,0 +1,19 @@
+@mixin container-p($height, $width, $bg-color, $justify-content, $align,$border-radius){
+    height: $height;
+    width: $width;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align; 
+    border-radius: $border-radius;
+}
+.container-h{
+    @include container-p(450px, 100%, #7fffd4, center, center, 10px);
+    a{
+        color: #000000;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
